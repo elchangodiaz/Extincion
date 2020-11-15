@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity"
+    android:background="@color/colorDark">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorEdtT"
+        android:textSize="40dp"
+        android:id="@+id/edit_Text"/>
+
+    <GridLayout
+        android:id="@+id/grid_numbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:columnCount="3"
+        android:orientation="horizontal">
+        <Button android:text="1"
+                android:id="@+id/n1"
+                android:textSize="20dp"/>
+        <Button android:text="2"
+                android:id="@+id/n2"
+                android:textSize="20dp"/>
+        <Button android:text="3"
+                android:id="@+id/n3"
+                android:textSize="20dp"/>
+        <Button android:text="4"
+                android:id="@+id/n4"
+                android:textSize="20dp"/>
+        <Button android:text="5"
+                android:id="@+id/n5"
+                android:textSize="20dp"/>
+        <Button android:text="6"
+                android:id="@+id/n6"
+                android:textSize="20dp"/>
+        <Button android:text="7"
+                android:id="@+id/n7"
+                android:textSize="20dp"/>
+        <Button android:text="8"
+                android:id="@+id/n8"
+                android:textSize="20dp"/>
+        <Button android:text="9"
+                android:id="@+id/n9"
+                android:textSize="20dp"/>
+        <Button android:text="*"
+                android:id="@+id/nAs"
+                android:textSize="20dp"/>
+        <Button android:text="0"
+                android:id="@+id/n0"
+                android:textSize="20dp"/>
+        <Button android:text="#"
+                android:id="@+id/nG"
+                android:textSize="20dp"/>
+        <Button android:text="clear"
+            android:id="@+id/btn_clear"
+            android:textSize="20dp"/>
+        <Button
+            android:layout_below="@+id/grid_numbers"
+            android:text="call"
+            android:id="@+id/btn_call"
+            android:textSize="20dp"/>
+        <Button android:text="Del"
+            android:id="@+id/btn_del"
+            android:textSize="20dp"/>
+    </GridLayout>
+
+
+
+</RelativeLayout>
